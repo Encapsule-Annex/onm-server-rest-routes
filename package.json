@@ -1,6 +1,6 @@
 {
   "name": "onm-server-rest-routes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Data-model-independent Express routes for exposing Object Namespace Manager (onm) data store instances(s) from a Node.js process.",
   "main": "library.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Encapsule/onm-server-rest-routes",
   "dependencies": {
-    "onm": "~0.1.14",
-    "node-uuid": "~1.4.1"
+    "node-uuid": "~1.4.1",
+    "onm": "^0.2.1"
   }
 }
